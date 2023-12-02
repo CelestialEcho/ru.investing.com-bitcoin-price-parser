@@ -6,6 +6,7 @@
 This tool is created by **CelestialEcho**. Find me on GitHub: https://github.com/CelestialEcho
 
 ## Usage:
-[+] Clone the repository: `git clone https://github.com/CelestialEcho/ru.investing.com-bitcoin-price-parser.git`
-[+] Navigate to the project directory: `cd ru.investing.com-bitcoin-price-parser`
-[+] Run the program: `python crypto_price_parser.py`
+ - [+] Clone the repository: `git clone https://github.com/CelestialEcho/ru.investing.com-bitcoin-price-parser.git`
+ - [+] Navigate to the project directory: `cd ru.investing.com-bitcoin-price-parser`
+ - [+] download libraries: `pip install selenium pytz`
+ - [+] Run the program: `python crypto_price_parser.py`
