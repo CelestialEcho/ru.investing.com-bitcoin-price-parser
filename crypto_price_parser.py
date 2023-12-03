@@ -63,9 +63,11 @@ def __bitcoin__():
     time.sleep(time_sleep)
     bitcoin = str(bitcoin.text)
     bitcoin = bitcoin.replace('.', '').replace(',', '.')
-    currency = float(bitcoin)
-
-    return currency
+    if bitcoin == '':
+        return None
+    else:
+        currency = float(bitcoin)
+        return currency
 
 
 def add_dict(n1):
